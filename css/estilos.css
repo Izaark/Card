@@ -206,8 +206,9 @@ a {	text-decoration: none; }
 	margin: 0 10px;
 }
 
-.redes-sociales .behance { background: #1769ff; }
-.redes-sociales .facebook { background: #3b5998; }
-.redes-sociales .twitter { background: #55acee; }
-.redes-sociales .github { background: black; }
-.redes-sociales .linkedin{ background: blue; }
+.redes-sociales .phone { background: #08298A; }
+.redes-sociales .stack-overflow { background: #DF7401; }
+.redes-sociales .whatsapp { background: #0077B5; }
+.redes-sociales .google-plus { background: #B43104; }
+.redes-sociales .github { background: #1C1C1C; }
+.redes-sociales .linkedin{ background: #0077B5; }
