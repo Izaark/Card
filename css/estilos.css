@@ -7,7 +7,7 @@
 }
 
 body {
-	background: url('../img/bg.png');
+	
 	background-size: cover;
 	background-attachment: fixed;
 	font-family:'Open Sans',Sans-serif, Arial, Helvetica;
@@ -25,13 +25,18 @@ a {	text-decoration: none; }
 }
 
 .tarjeta {
+
 	margin:40px 0;
 	width: 100%;
-	background: #fff;
-	border-radius: 5px;
+	background: #F5ECCE;
+	border-radius:13px;	
 	overflow: hidden;
 	z-index: 1000;
+	opacity: 0.985;
+	
+	
 }
+
 
 /* --------------------------------------- */
 /* ----- Slider Banner */
@@ -57,8 +62,8 @@ a {	text-decoration: none; }
 }
 
 .slider_banner .flecha-banner {
-	font-size: 35px;
-	line-height: 35px;
+	font-size: 45px;
+	line-height: 45px;
 	color: rgba(0,0,0,.2);
 	position: absolute;
 	top:50%;
@@ -66,7 +71,7 @@ a {	text-decoration: none; }
 }
 
 .slider_banner .flecha-banner:hover {
-	color: rgba(0,0,0,.5);
+	color: #B40404;
 }
 
 .slider_banner .flecha-banner.anterior {left: 20px;}
@@ -97,7 +102,7 @@ a {	text-decoration: none; }
 }
 
 .slider_info .informacion article .slide{
-	background: #fff;
+	background: #F5ECCE;
 	width: 100%;
 	left: 100%;
 	padding: 20px 80px;
@@ -106,16 +111,16 @@ a {	text-decoration: none; }
 /* Slider Flechas */
 
 .slider_info .flecha-info {
-	font-size: 35px;
-	line-height: 35px;
-	color: #e6e6e6;
+	font-size: 45px;
+	line-height: 45px;
+	color: rgba(0,0,0,.2);
 	position: absolute;
 	top:50%;
 	z-index: 1000;
 }
 
 .slider_info .flecha-info:hover {
-	color:#6ed279;
+	color: #B40404;
 }
 
 .slider_info .flecha-info.anterior {
@@ -138,7 +143,7 @@ a {	text-decoration: none; }
 }
 
 .slider_info .informacion .trabajo {
-	color: #55acee;
+	color: #B40404;
 	font-size: 18px;
 	line-height: 18px;
 	margin-bottom: 16px;
@@ -185,14 +190,17 @@ a {	text-decoration: none; }
 }
 
 .slider_info .informacion .botones .active {
-	background: #6ed279;
+	background: #B40404;
 }
 
 /* ----- ----- Redes Sociales ----- ----- */
 .redes-sociales {
 	text-align: center;
 	padding: 20px 0;
+
 }
+
+
 
 .redes-sociales a {
 	display: inline-block;
@@ -212,3 +220,10 @@ a {	text-decoration: none; }
 .redes-sociales .google-plus { background: #B43104; }
 .redes-sociales .github { background: #1C1C1C; }
 .redes-sociales .linkedin{ background: #0077B5; }
+
+.redes-sociales .github:hover{
+	transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    transition-duration: 1.5s;
+    -webkit-transition-duration:1s;
+}

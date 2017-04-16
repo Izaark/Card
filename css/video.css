@@ -11,5 +11,6 @@ video{
 
 	transform: translateX(-50%) translateY(-50%);
 	-webkit-filter: sepia(100%);
+	
 
 }
