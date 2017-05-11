@@ -136,7 +136,7 @@ a {	text-decoration: none; }
 
 .slider_info .informacion .nombre {
 	color: #444444;
-	font-size: 38px;
+	font-size: 34px;
 	line-height: 38px;
 	font-weight:600;
 	margin-bottom: 16px;
@@ -149,9 +149,17 @@ a {	text-decoration: none; }
 	margin-bottom: 16px;
 }
 
+.slider_info .informacion .curriculum {
+	color: blue;
+	font-size: 18px;
+	line-height: 18px;
+	margin-bottom: 16px;
+}
+
 .slider_info .informacion .pais {
-	color: #8d8d8d;
-	font-family: 14px;
+	color: black;
+	
+	font-family: 16px;
 	line-height: 14px;
 }
 
@@ -162,9 +170,12 @@ a {	text-decoration: none; }
 }
 
 .slider_info .informacion .texto {
-	color: #55acee;
+	color: black;
 	font-size: 18px;
 	line-height: 24px;
+	font-family: "Calibri (Cuerpo)";
+	text-align: justify;
+
 }
 
 .slider_info .informacion .subtitulo {
@@ -181,12 +192,12 @@ a {	text-decoration: none; }
 }
 
 .slider_info .informacion .botones span {
-	width: 14px;
-	height: 14px;
+	width: 16px;
+	height: 16px;
 	display: inline-block;
 	margin: 0 10px;
 	border-radius: 50%;
-	background:#e6e6e6;
+	background:#F78181;
 }
 
 .slider_info .informacion .botones .active {
@@ -220,10 +231,11 @@ a {	text-decoration: none; }
 .redes-sociales .google-plus { background: #B43104; }
 .redes-sociales .github { background: #1C1C1C; }
 .redes-sociales .linkedin{ background: #0077B5; }
+.redes-sociales .download{ background: #B18904; }
 
-.redes-sociales .github:hover{
+.redes-sociales :hover{
 	transform: rotateY(360deg);
     -webkit-transform: rotateY(360deg);
     transition-duration: 1.5s;
-    -webkit-transition-duration:1s;
+    -webkit-transition-duration:1.4s;
 }
